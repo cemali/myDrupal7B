@@ -1,0 +1,44 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+
+@import "compass/reset";
+
+//@import "init"; does not work propertly in this project. 1-31-2016
+
+@import "_colour";
+
+@import "_font-awesome";
+
+#navbar {
+    //background-color: patina; does not work
+}
+
+//@import "compass/utilities/general/clearfix";
+
+//@import "mixins";
+
+
+   // color: green;
+   // color: rgba($green,0.9);;
+/* Import Sass mixins, variables, Compass modules, etc. */
+//@import "init";
+
+/* HTML element (SMACSS base) rules */
+//@import "normalize";
+
+/* Layout rules */
+//@import "layouts/responsive";
+
+/* Component (SMACSS module) rules */
+//@import "components/misc";
+// Optionally, add your own components here.
+//@import "print";
+
+/* SMACSS theme rules */
+/* @import "theme-A"; */
+/* @import "theme-B"; */

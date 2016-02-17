@@ -1,0 +1,32 @@
+#using anchors Panels Navigation required several modules to be loaded.
+# such as multilingual, panels, and variable, jquery ui
+# these modules were loaded on site3.local and the single page website module will be loaded on
+# site2.locale. 
+# thought anchors panels navigation was single page, but it was not and since I loaded it already
+# I just left it there. 
+#
+# Matt Lee
+# 08/24/2015
+#
+# 10/22/2015 - Since last time I have worked with Compass/Sass -- and using wireframes with myzen # sub-theme. Now this site has bootstrap theme from the main theme directory. Also bootstrap does # not uses sass css, it uses less . so Sassy and sass will not work with boostrap. 
+# Sass and Sassy is a css framework and is very flexiable with grids. I must decide which on to go
+# with
+#
+# I stand corrected, Bootstrap does work with compass sass. working on the
+# results today, 1-31-2016.
+# I have added compass sass to the directory structure of localhost/drupal under bootstrap 3.0
+# there are two styles sheets being used style and styles. I will used them for background colors and alike.
+# I copied the bootstrap style.css to my compass stylesheet directory and then modified it to work with the colors.
+# but it does not work with multiple stylesheets. so my variables stylesheet does not work with it. 
+# in summary only one style sheet can work at a time with drupal bootstrap. The two directories are stylesheet and css
+# where both stylesheet goes so if style.css gets deleted, the original one is under css/style.css.
+#
+# 02-02-2016 - 
+# Google Chrome browser - favicon error - only one error.
+# IE 11 browser - no errors.
+# Firefox browser - 10 errors with doctype xml - .
+#
+# 02-14-2016 -
+# Did some mashup with themes today mixed the bootstrap 3.0 and bartik colors options and header -
+# it is under my_bootstrap_subtheme theme.
+

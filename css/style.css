@@ -1,0 +1,188 @@
+/* line 1, ../sass/style.scss */
+.body {
+  background-color: bright-red;
+}
+
+html.overlay-open .navbar-fixed-top{
+    z-index:400
+}
+html.js fieldset.collapsed{
+    height:auto
+}
+html.js input.form-autocomplete{
+    background-image:none
+}
+body{
+    position:relative
+}
+body.admin-expanded.admin-vertical.admin-nw .navbar,body.admin-expanded.admin-vertical.admin-sw .navbar{
+    margin-left:260px
+}
+body.navbar-is-fixed-top{
+    padding-top:64px!important
+}
+body.navbar-is-fixed-bottom{
+    padding-bottom:64px!important
+}
+body.toolbar{
+    padding-top:30px!important
+}
+body.toolbar .navbar-fixed-top{
+    top:30px
+}
+body.toolbar.navbar-is-fixed-top{
+    padding-top:94px!important
+}
+body.toolbar-drawer{
+    padding-top:64px!important
+}
+body.toolbar-drawer .navbar-fixed-top{
+    top:64px
+}
+body.toolbar-drawer.navbar-is-fixed-top{
+    padding-top:128px!important
+}
+body.admin-menu .navbar-fixed-top{
+    top:29px
+}
+body.admin-menu.navbar-is-fixed-top{
+    padding-top:93px!important
+}
+body div#admin-toolbar{
+    z-index:1600
+}
+body #toolbar,body #admin-menu,body #admin-toolbar{
+    -webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none
+}
+body #admin-menu{
+    margin:0;padding:0;position:fixed;z-index:1600
+}
+body #admin-menu .dropdown li{
+    line-height:normal
+}
+.navbar.container{
+    margin-top:20px
+}
+@media screen and (min-width:768px){
+    .navbar.container{
+        max-width:720px}
+}
+@media screen and (min-width:992px){
+    .navbar.container{max-width:940px}
+}
+@media screen and (min-width:1200px){
+    .navbar.container{max-width:1140px}
+}
+.navbar.container>.container{
+    margin:0;padding:0;width:auto
+}
+#overlay-container,.overlay-modal-background,.overlay-element{
+    z-index:1500
+}
+#toolbar{
+    z-index:1600
+}
+.modal{
+    z-index:1620
+}
+.modal-dialog{
+    z-index:1630
+}
+.modal-backdrop{
+    z-index:1610
+}
+.footer{
+    margin-top:45px;padding-top:35px;padding-bottom:36px;border-top:1px solid #E5E5E5
+}
+.element-invisible{
+    margin:0;padding:0;width:1px
+}
+.navbar .logo{
+    margin-right:-15px;padding-left:15px;padding-right:15px
+}
+@media screen and (min-width:768px){
+    .navbar .logo{margin-right:0;padding-left:0}
+}
+ul.secondary{
+    float:left
+}
+@media screen and (min-width:768px){
+    ul.secondary{float:right}
+}
+.page-header{
+    margin-top:0
+}
+.block:first-child h2.block-title{
+    margin-top:0
+}
+
+p:last-child{
+    margin-bottom:0
+}
+.region-help>.glyphicon{
+    font-size:18px;float:left;margin:-.05em .5em 0 0
+}
+.region-help .block{
+    overflow:hidden
+}
+form#search-block-form{
+    margin:0
+}
+.navbar #block-search-form{
+    float:none;margin:5px 0 5px 5px
+}
+@media screen and (min-width:992px){
+    .navbar #block-search-form{
+        float:right}
+}
+.navbar-search .control-group{
+    margin-bottom:0
+}
+ul.action-links{
+    margin:12px 0;padding:0
+}
+ul.action-links li{
+    display:inline;margin:0;padding:0 6px 0 0
+}
+ul.action-links .glyphicon{
+    padding-right:.5em
+}
+input,textarea,select,.uneditable-input{
+    max-width:100%;width:auto
+}
+input.error{
+    color:#b94a48;border-color:#ebccd1
+}
+fieldset legend.panel-heading{
+    float:left;line-height:1em;margin:0
+}
+fieldset .panel-body{
+    clear:both
+}
+fieldset .panel-heading a.panel-title{
+    color:inherit;display:block;margin:-10px -15px;padding:10px 15px
+}
+fieldset .panel-heading a.panel-title:hover{
+    text-decoration:none
+}
+.form-actions{
+    clear:both
+}
+.resizable-textarea textarea{
+    border-radius:4px 4px 0 0
+}
+.radio:first-child,.checkbox:first-child{
+    margin-top:0
+}
+.radio:last-child,.checkbox:last-child{
+    margin-bottom:0
+}
+.help-block,.control-group .help-inline{
+    color:#999;font-size:12px;margin:5px 0 10px;padding:0
+}
+.panel-heading{
+    display:block
+}
+a.tabledrag-handle .handle{
+    height:auto;width:auto
+}
