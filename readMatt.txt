@@ -1,3 +1,8 @@
+# This is localhost/drupal with is renamed to myDrupal7.
+# The default version
+# 02-18-2016
+
+
 #using anchors Panels Navigation required several modules to be loaded.
 # such as multilingual, panels, and variable, jquery ui
 # these modules were loaded on site3.local and the single page website module will be loaded on
