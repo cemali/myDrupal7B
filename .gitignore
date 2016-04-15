@@ -1,0 +1,6 @@
+.sass-cache
+.htaccess
+sites/*/services.yml
+sites/*/setting.php
+sites/*/files
+sites/*/private
